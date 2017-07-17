@@ -1,4 +1,5 @@
 ﻿using Engine.Tests;
+using Engine.Tests.ExtensionMethodVsFunction;
 using Engine.Tests.SwitchVsIfElse;
 
 namespace Engine.ViewModels
@@ -56,8 +57,8 @@ namespace Engine.ViewModels
 
         public PerformanceTest()
         {
-            Test1 = new TestRunner(new PerfTestIfElse());
-            Test2 = new TestRunner(new PerfTestSwitch());
+            Test1 = new TestRunner(new ExtensionMethod());
+            Test2 = new TestRunner(new Function());
         }
 
         public void RunTests()

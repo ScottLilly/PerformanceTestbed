@@ -42,6 +42,9 @@
   <ItemGroup>
     <Compile Include="BaseNotificationClass.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tests\ExtensionMethodVsFunction\ExtensionFunctions.cs" />
+    <Compile Include="Tests\ExtensionMethodVsFunction\ExtensionMethod.cs" />
+    <Compile Include="Tests\ExtensionMethodVsFunction\Function.cs" />
     <Compile Include="Tests\IScenario.cs" />
     <Compile Include="Tests\SwitchVsIfElse\PerfTestIfElse.cs" />
     <Compile Include="Tests\SwitchVsIfElse\PerfTestSwitch.cs" />
